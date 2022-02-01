@@ -4,18 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/pkg/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/pkg/fontawosome.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Navigation</title>
 </head>
 <body>
     <!-- ////////// Navigation //////////// -->
-    
+     <!-- mobile-nav section start here -->
+     <div class="mobile-menu">
+        <nav class="mobile-header primary-menu d-xl-none">
+            <div class="header-logo">
+                <a href="#" class="logo"><img src=".." alt="logo"></a>
+            </div>
+            <div class="header-bar" id="open-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <nav class="menu">
+            <div class="mobile-menu-area d-xl-none">
+                <div class="mobile-menu-area-inner" id="scrollbar">
+                    <ul class="m-menu">
+                        <li><a href="#">Categories</a> 
+                            <ul class="m-submenu">
+                                <li><a href="#">Home page one</a></li>
+                                <li><a href="#">Home page two</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a class="active" href="#">Service</a>
+                            <ul class="m-submenu">
+                                <li>
+                                    <a class="active" href="#">Shop</a>
+                                    <ul class="m-submenu">
+                                        <li><a href="#">Shop Page</a></li>
+                                        <li><a class="active" href="#">Product Page</a></li>
+                                        <li><a href="#">Cart Page</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#l">Search Page</a></li>
+                                <li><a href="#">Search None Page</a></li>
+                                <li><a href="#">Coming Soon</a></li>
+                                <li><a href="#">404</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Support</a>
+                            <ul class="m-submenu">
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Service Details</a></li>
+                            </ul>
+                        </li>            
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- mobile-nav section ending here -->
 
-
-
-
+    <!-- header section start here -->
+    <header class="header-section d-none d-xl-block">
+        <div class="header-bottom">
+            <nav class="primary-menu">
+                <div class="container">
+                    <div class="menu-area">
+                        <div class="row justify-content-between align-items-center">
+                            <a href="#" class="logo">
+                                <img src="assets/img/logo/Logo.png" alt="logo">
+                            </a>
+                            <div class="main-menu-area d-flex align-items-center">
+                                <ul class="main-menu d-flex align-items-center">
+                                    <li><a href="#">Categories</a> 
+                                        <ul class="submenu">
+                                            <li><a href="#">Home page one</a></li>
+                                            <li><a href="#">Home page two</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a class="active" href="#">Service</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                                  <a class="active" href="#">Website UI Design</a>
+                                                <ul class="submenu">
+                                                    <li><a href="#">Shop Page</a></li>
+                                                    <li><a class="active" href="#">Product Page</a></li>
+                                                    <li><a href="#">Cart Page</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Mobile App UI Design</a></li>
+                                            <li><a href="#">Admin Dashboard UI Design</a></li>
+                                            <li><a href="#">WordPress Theme Development</a></li>
+                                            <li><a href="#">Graphic Design</a></li>
+                                            <li><a href="#">Animation/ Motion Graphics</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Support</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Help Center</a></li>
+                                            <li><a href="#">Mobile App UI Design</a></li>
+                                        </ul>
+                                    </li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="btn btn-primary" >Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
     <!-- ////////////// JS  ///////// -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
